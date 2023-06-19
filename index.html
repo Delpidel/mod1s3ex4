@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+</head>
+<body>
+  <header>
+    <h1>Formulário de cadastro</h1>
+  </header>
+  <main>
+     <div class="container">
+       <p class="request">Complete o formulário abaixo com seus dados:</p>
+       <label for="name">Nome:<br></label>
+       <input type="text" name="name" class="form-name">
+       <label for="bday"><br><br>Data de nascimento:<br></label>
+       <input type="text" name="bday" class="form-bday" placeholder="dd/mm/aaaa" required>
+       <label for="cpf"><br><br>CPF:</label>
+       <input type="text" name="cpf" class="form-cpf"><br>
+       <p>Município:</p>
+       <select id="dropdown" name="municipio" class="form-municipio" required>
+        <option disabled selected value>Selecione</option>
+        <option value="florianopolis">Florianópolis</option>
+        <option value="joinville">Joinville</option>
+        <option value="blumenau">Blumenau</option>
+        <option value="tubarao">Tubarão</option>
+        <option value="criciuma">Criciúma</option>
+        <option value="ararangua">Araranguá</option>
+     </div>
+</body>
+</html>
